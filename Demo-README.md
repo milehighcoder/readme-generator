@@ -4,7 +4,7 @@
 
 ## Description
 
-This README demonstrates what the final product of this application looks like using Lorem Ipsum text as as a content filler.
+This README demonstrates what the final product of this application looks like using Lorem Ipsum text as a content filler.
 
 ## Table of Contents
 
