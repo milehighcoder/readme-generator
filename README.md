@@ -26,7 +26,7 @@ When creating an application as a developer, it’s important to have a high-qua
 
 This application uses the [Inquirer.js](https://www.npmjs.com/package/inquirer) npm package to prompt the user with a series of questions that assist in creating a personalized, professional README. The prompts gather information such as project description, installation instructions, license specifications, support information, and more.
 
-After the prompts have been answered by the user, the application automatically generates a markdown file that is saved to the root directory of the user's project. The README also includes a license badge located at the top of the markdown in order to add legitimacy to the project.
+After the prompts have been answered by the user, the application automatically generates a markdown file with the user's specific project information. The README includes a license badge located at the top of the markdown in order to add legitimacy to the project.
 
 For an example of the README that this application generates, please open "Demo-README.md" located in this repository.
 
