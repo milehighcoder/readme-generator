@@ -24,6 +24,8 @@ When creating an application as a developer, it’s important to have a high-qua
 
 ## Usage
 
+[![Walkthrough Video](assets/walkthroug-thumbnail.jpg)](https://www.loom.com/share/a6c274f321c948968a2ac1d003863752)
+
 This application uses the [Inquirer.js](https://www.npmjs.com/package/inquirer) npm package to prompt the user with a series of questions that assist in creating a personalized, professional README. The prompts gather information such as project description, installation instructions, license specifications, support information, and more.
 
 After the prompts are answered by the user, the application automatically generates a markdown file that is ready to be used in their new project. The README also includes a license badge located at the top of the markdown in order to add legitimacy to the project.
