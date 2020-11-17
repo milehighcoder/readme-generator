@@ -1,6 +1,6 @@
 # Test
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
@@ -11,9 +11,9 @@ Test
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [License](#license)
 * [Questions](#questions)
 
 ## Installation
@@ -28,10 +28,6 @@ Test
 
 Test
 
-## License
-
-This project is MIT licensed.
-
 ## Contributing
 
 Test
@@ -39,6 +35,10 @@ Test
 ## Tests
 
 Test
+
+## License
+
+This project is Apache 2.0 licensed.
 
 ## Questions
 

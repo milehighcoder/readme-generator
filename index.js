@@ -92,9 +92,9 @@ inquirer
         "* [Installation](#installation)\n" +
         "* [Usage](#usage)\n" +
         "* [Credits](#credits)\n" +
-        "* [License](#license)\n" +
         "* [Contributing](#contributing)\n" +
         "* [Tests](#tests)\n" +
+        "* [License](#license)\n" +
         "* [Questions](#questions)\n\n" +
         "## Installation\n\n" +
         `${data.installation}\n\n` +
@@ -102,14 +102,14 @@ inquirer
         `${data.usage}\n\n` +
         "## Credits\n\n" +
         `${data.credits}\n\n` +
-        "## License\n\n" +
-        "This project is " +
-        `${data.license}` +
-        " licensed.\n\n" +
         "## Contributing\n\n" +
         `${data.contributions}\n\n` +
         "## Tests\n\n" +
         `${data.tests}\n\n` +
+        "## License\n\n" +
+        "This project is " +
+        `${data.license}` +
+        " licensed.\n\n" +
         "## Questions\n\n" +
         "For more information about this application, please feel free to contact me via the links below.\n\n" +
         "- [Github](https://www.github.com/" +
