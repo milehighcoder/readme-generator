@@ -19,7 +19,7 @@ When creating an application as a developer, it’s important to have a high-qua
 * Step 1: Install [Node.js](https://nodejs.org/).
 * Step 2: Clone this repository to your local drive.
 * Step 3: Open Git Bash (PC) or Terminal (Mac) and navigate to the root directory of this cloned repository.
-* Step 4: Enter `npm i inquirer` in the command line to install the `Inquirer.js` npm package dependency as detailed in the package.json.
+* Step 4: Enter `npm i inquirer` in the command line to install the Inquirer.js npm package dependency as detailed in the package.json.
 * Step 5: Enter `node index.js` in the command line to invoke the application.
 
 ## Usage
