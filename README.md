@@ -4,7 +4,7 @@
 
 ## Description
 
-When creating an application as a developer, it’s important to have a high-quality README. It should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. In an effort to give developers a practical tool that saves them time away from coding, I created a command-line application that dynamically generates a professional README.md file using the [Inquirer.js npm package](https://www.npmjs.com/package/inquirer).
+When creating an application as a developer, it’s important to have a high-quality README. It should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. In an effort to give developers a practical tool that saves them time away from coding, I created a command-line application that dynamically generates a professional README.md file using the [Inquirer.js](https://www.npmjs.com/package/inquirer) npm package.
 
 ## Table of Contents
 
