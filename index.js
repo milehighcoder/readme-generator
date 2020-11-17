@@ -57,10 +57,35 @@ inquirer
   ])
 
   .then((data) => {
+    switch (data.license) {
+      case "MIT": {
+        licenseImage =
+          "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+        console.log(licenseImage);
+        break;
+      }
+      case "Apache 2.0": {
+        licenseImage =
+          "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+        console.log(licenseImage);
+        break;
+      }
+      case "GNU GPLv3": {
+        licenseImage =
+          "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+        console.log(licenseImage);
+        break;
+      }
+      default:
+        break;
+    }
+
     fs.writeFile(
       "README.md",
       "# " +
         `${data.title}\n\n` +
+        licenseImage +
+        "\n\n" +
         "## Description\n\n" +
         `${data.description}\n\n` +
         "## Table of Contents\n\n" +
@@ -98,9 +123,3 @@ inquirer
           : console.log("README successfully created!")
     );
   });
-
-  // switch (inquirer.prompt.choices) {
-  //   case "MIT":
-  //   console.log("Hello");
-  //   break;
-  // }
