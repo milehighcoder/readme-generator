@@ -8,7 +8,7 @@ When creating an application as a developer, it’s important to have a high-qua
 
 ## Table of Contents
 
-* [Installation](#installation)+
+* [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
