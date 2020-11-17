@@ -24,10 +24,15 @@ inquirer
       name: "usage",
     },
     {
+      type: "input",
+      message: "Enter credits.",
+      name: "credits",
+    },
+    {
       type: "list",
       message: "Choose a license type.",
       name: "license",
-      choices: ["MIT", "Apache 2.0", "Mozilla Public", "GNU GPL v3", "ISC"],
+      choices: ["MIT", "Apache 2.0", "GNU GPLv3"],
     },
     {
       type: "input",
@@ -58,19 +63,24 @@ inquirer
         `${data.title}\n\n` +
         "## Description\n\n" +
         `${data.description}\n\n` +
-        "#### Table of Contents\n\n" +
-        "[Installation](#installation)\n" +
-        "[Usage](#usage)\n" +
-        "[License](#license)\n" +
-        "[Contributing](#contributing)\n" +
-        "[Tests](#tests)\n" +
-        "[Questions](#questions)\n\n" +
+        "## Table of Contents\n\n" +
+        "* [Installation](#installation)\n" +
+        "* [Usage](#usage)\n" +
+        "* [Credits](#credits)\n" +
+        "* [License](#license)\n" +
+        "* [Contributing](#contributing)\n" +
+        "* [Tests](#tests)\n" +
+        "* [Questions](#questions)\n\n" +
         "## Installation\n\n" +
         `${data.installation}\n\n` +
         "## Usage\n\n" +
         `${data.usage}\n\n` +
+        "## Credits\n\n" +
+        `${data.credits}\n\n` +
         "## License\n\n" +
-        `${data.license}\n\n` +
+        "This project is " +
+        `${data.license}` +
+        " licensed.\n\n" +
         "## Contributing\n\n" +
         `${data.contributions}\n\n` +
         "## Tests\n\n" +
@@ -79,17 +89,18 @@ inquirer
         "For more information about this application, please feel free to contact me via the links below.\n\n" +
         "- [Github](https://www.github.com/" +
         `${data.github})\n` +
-        "- Email: " +
-        `${data.email}\n`,
-      (err) =>
-        err ? console.log(err) : console.log("README successfully created!")
+        "- [Email](mailto:" +
+        `${data.email}` +
+        ")\n",
+      (success) =>
+        success
+          ? console.log(success)
+          : console.log("README successfully created!")
     );
   });
 
-// function to initialize program
-// function init() {
-
-// }
-
-// function call to initialize program
-// init();
+  // switch (inquirer.prompt.choices) {
+  //   case "MIT":
+  //   console.log("Hello");
+  //   break;
+  // }
