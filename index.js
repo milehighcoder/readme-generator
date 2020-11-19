@@ -117,9 +117,9 @@ inquirer
         "- [Email](mailto:" +
         `${data.email}` +
         ")\n",
-      (success) =>
-        success
-          ? console.log(success)
+      (err) =>
+        err
+          ? console.log(err)
           : console.log("README successfully created!")
     );
   });
